@@ -1,0 +1,28 @@
+.reservationForm input{
+    height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.reservationForm{
+    background-color: rgb(190, 190, 190);
+    transition: all 1s ease-in-out;
+}
+
+.reservationForm button{
+ 
+    background-color: gold;
+    border: 1px solid black; 
+    margin-left: 5px;
+}
+
+.reservationForm button:hover{
+    background-color: white;
+    border: 1px solid goldenrod;  
+    cursor: pointer;
+}
+
+.reservationForm .disabled{
+    background-color: gray;
+    cursor: default;
+}

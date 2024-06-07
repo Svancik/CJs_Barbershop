@@ -1,0 +1,95 @@
+.reservationsTable{
+    width: 90%;
+    margin: auto;
+    max-height: 83vh;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 30px;
+    overflow-y: auto;
+
+}
+
+.reservationsTable table{
+    gap: 20px;
+    width: 100%;
+  
+}
+
+.reservationsTable .table-row-odd {
+    background-color: #ffffff; /* Light background for odd rows */
+}
+
+.reservationsTable .table-row-even {
+    background-color: #fbfbfb; /* Darker background for even rows */
+}
+
+.reservationsTable input{
+    height: 32px;
+    margin-right: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.reservationsTable table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.reservationsTable tr{
+    border-bottom: 1px solid white;
+}
+
+.reservationsTable button{
+    background-color: white;
+    border: 1px solid goldenrod;    
+}
+
+.reservationsTable button:hover{
+    background-color: goldenrod;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.reservationsTable .add{
+    background-color: black;
+    color: gold;
+}
+
+.reservationsTable .mui{    
+    height: 22px;
+    width: 22px;
+}
+
+.reservationsTable .delete .mui{
+    color: red;
+}
+
+.reservationsTable td{
+    border-right: 1px solid white;
+    
+}
+.reservationsTable td{
+    text-align: left;    
+}
+
+.reservationsTable td:nth-child(1), td:nth-child(2), td:nth-child(3), td:nth-child(9), td:nth-child(8), td:nth-child(7){
+    text-align: center;
+}
+
+.reservationsTable td:nth-child(2), td:nth-child(3){
+    padding-left: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.reservationsTable td:nth-child(4), td:nth-child(5){
+    padding-left: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.reservationsTable th{
+    text-align: center;    
+}
+

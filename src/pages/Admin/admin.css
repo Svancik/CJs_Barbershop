@@ -1,0 +1,14 @@
+.admin{
+    background-color: black;
+    padding-top: 2vh;
+    height: 98vh;
+    position: relative;
+}
+
+.admin .add{
+    cursor: pointer;
+}
+
+.admin .add:hover{
+    background-color: white;
+}
